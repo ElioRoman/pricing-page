@@ -6,16 +6,19 @@ html{
 body{
     display: flex;
     justify-content: center;
+    margin: 115px 132px;
+    
 }
 
 .price-card{
     position: relative;
-    margin-top: 115px;
+    
     margin-right: 18px;
     min-width: 380px;
     background: #334247;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.09);
     overflow: hidden;
+    
 
     &__title{
         margin: 0;

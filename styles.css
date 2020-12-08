@@ -6,11 +6,11 @@ html {
 body {
   display: flex;
   justify-content: center;
+  margin: 115px 132px;
 }
 
 .price-card {
   position: relative;
-  margin-top: 115px;
   margin-right: 18px;
   min-width: 380px;
   background: #334247;
