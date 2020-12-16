@@ -1,3 +1,5 @@
+@import 'price-card.scss';
+
 *{
     box-sizing: border-box;
 }
@@ -15,122 +17,6 @@ body{
     width: 1440px;
     height: 1000px;
     
-}
-
-.price-cards{
-    display: flex;
-    margin-bottom: 100px;
-}
-
-.price-card{
-    position: relative;
-    margin-left: 18px;
-    width: 380px;
-    height: 770px;
-    background: #334247;
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.09);
-    overflow: hidden;
-
-    &:first-child {
-        margin-left: 0;
-      }
-    
-
-    &__title{
-        margin: 0;
-        padding-top: 33px;
-        text-align: center;
-        font-size: 35px; 
-        line-height: 43px; 
-        font-weight: 700;
-        color: #FFFFFF;
-    }
-
-    &__header{  
-        position: absolute;
-        top: 30px;
-        right: -30px;
-        transform: rotate(45deg);
-        width: 147px;
-        background-color: #dc3f45;
-        text-align: center;
-                 
-    }
-
-    &__title-badge{
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 25px;
-        color: #ffffff;
-
-    }
-
-    &__subtitle{
-        margin: 0;
-        padding-bottom: 33px;
-        text-align: center;
-        font-size: 20px; 
-        line-height: 24px;
-        font-weight: 300;
-        color: #FFFFFF;
-    }
-
-    &__price{
-        padding: 19px 0;
-        font-weight: 700;
-        font-size: 55px;
-        line-height: 67px;
-        text-align: center;
-        color: #FFFFFF;
-        background-color: #5BB189;;
-    }
-
-    &__description{
-        margin: 0;
-        margin: 40px 26px;
-        font-weight: 300;
-        font-size: 15px;
-        line-height: 18px;
-        text-align: center;
-        color: #FFFFFF;
-    }
-
-    &__options-list{
-        margin: 0;
-        padding: 0;
-        list-style-type: none;   
-    }
-
-    &__options-list-item{
-        line-height: 50px;
-        font-weight: 300;
-        font-size: 15px;
-        color: #FFFFFF;
-
-        &:nth-child(odd){
-            background-color:#2A343899;
-        }
-    }
-
-    &__options-list-mark{
-        margin: 0 22px;
-    }
-
-    &__order-btn{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 39px auto 40px;
-        padding: 0;
-        width: 155px;
-        height: 40px;
-        background: #5BB189;
-        border-radius: 20px;
-        border: none;
-        font-size: 14px;
-        color: #FFFFFF;
-    }
 }
 
 .blue{
